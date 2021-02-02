@@ -2,8 +2,22 @@
 .indice{
 	background-color:green;
 	color:white;
-	width:300px;
+	list-style:none;
+	width:100%;
+	margin:0;
+	padding:0;
 	
+}
+.indice li{
+	display:inline-block;/*Para poner los elementos de la lista de forma horizontal*/
+}
+.indice li a{
+	padding: 10px 20px; /*xpx(arriba) y ypx(abajo)*/
+	display:inline-block;
+}
+.indice li a:hover{/*Propiedad cuando se esta en el cursor*/
+	background:#80ff80;
+	color:white;
 }
 h1{
 	background-color:green;
@@ -21,10 +35,12 @@ h2{
 	background-color:green;
 	color:white;
 	width:100px;
+	border-radius:30px;
 }
 .platos{
 	width:500px;
 	height:250px;
+	border-radius:20px;
 }
 .contacto{
 	background-color:green;
